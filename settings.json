@@ -1,0 +1,75 @@
+{
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 100,
+
+  "emmet.excludeLanguages": ["typescript", "typescriptreact"],
+
+  "editor.suggestSelection": "first",
+  "breadcrumbs.enabled": true,
+
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "terminal.integrated.fontSize": 16,
+
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "overrideConfigFile": "./.eslintrc.json"
+  },
+  "eslint.packageManager": "yarn",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  //
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
+
+  // font
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.renderLineHighlight": "gutter",
+  "editor.letterSpacing": 0.5,
+
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.minimap.enabled": false,
+  // "editor.occurrencesHighlight": false,
+  // "editor.overviewRulerBorder": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.activityBar.visible": false,
+  // "workbench.editor.showIcons": false,
+
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  "go.autocompleteUnimportedPackages": true,
+  "explorer.confirmDelete": false,
+  "workbench.statusBar.visible": false,
+  "workbench.productIconTheme": "icons-carbon",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.matchBrackets": "never",
+  "workbench.colorTheme": "One Monokai"
+}
